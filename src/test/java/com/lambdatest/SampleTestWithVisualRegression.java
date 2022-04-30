@@ -30,6 +30,7 @@ public class TestNGTodo1 {
         caps.setCapability("browserName", "Safari");
         caps.setCapability("version", "latest");
         caps.setCapability("build", "TestNG With Java");
+        // caps.setCapability("smartUI.project", "<Your SmartUI Project Name>");    // For running SmartUI - Visual Regression Testing with Selenium functional testing. 
         caps.setCapability("name", m.getName() + " - " + this.getClass().getName());
         caps.setCapability("plugin", "git-testng");
 
